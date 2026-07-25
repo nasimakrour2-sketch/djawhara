@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARL EL DJAWHARA LI NADAFA WA TATHIR | الجوهرة للنظافة و التطهير</title>
+    <meta name="description" content="Professional cleaning, sanitation, and sewage disposal services. Available 24/7.">
+    
+    <!-- Google Fonts: Cairo for modern Arabic typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-container">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <h2>الجوهرة</h2>
+                <img id="logo" class="logo" src="img/logo.jpg" alt="logo" >
+            </a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">خدماتنا</a></li>
+                    <li><a href="#features" class="nav-link" data-i18n="nav_features">لماذا نحن</a></li>
+                    <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">قبل / بعد</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-toggle" aria-label="Translate Page">EN</button>
+                
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="https://wa.me/213671755977" target="_blank" class="btn btn-primary glass-btn">
+                    <i class="fab fa-whatsapp"></i> 0671755977
+                </a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content fade-in-up">
+            <div class="glass-card hero-card">
+                <h1>SARL EL DJAWHARA LI NADAFA WA TATHIR</h1>
+                <p data-i18n="hero_subtitle">حلول متكاملة لجميع مشاكل الصرف الصحي والنظافة</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="btn_order">اطلب خدمة الآن</a>
+                    <a href="#services" class="btn btn-outline" data-i18n="btn_discover">اكتشف خدماتنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="section bg-soft">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>خدماتنا</h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-4">
+                <!-- Service 1 -->
+                <div class="service-card glass-card reveal">
+                    <div class="icon-wrapper"><i class="fas fa-sink"></i></div>
+                    <h3>تسليك المجاري</h3>
+                    <p>تسليك جميع أنواع البالوعات و القنوات الرئيسية</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card glass-card reveal delay-1">
+                    <div class="icon-wrapper"><i class="fas fa-water"></i></div>
+                    <h3>تنظيف قنوات الصرف</h3>
+                    <p>تنظيف وتسليك القنوات المائية والصرف الصحي</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card glass-card reveal delay-2">
+                    <div class="icon-wrapper"><i class="fas fa-broom"></i></div>
+                    <h3>تنظيف البلاط</h3>
+                    <p>تنظيف وجلي جميع أنواع البلاط والسيراميك</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card glass-card reveal delay-3">
+                    <div class="icon-wrapper"><i class="fas fa-spray-can"></i></div>
+                    <h3>تعقيم وتطهير</h3>
+                    <p>خدمات عالية الجودة للتعقيم من الجراثيم والفيروسات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Why Choose Us -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>لماذا تختار الجوهرة؟</h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-4">
+                <div class="feature-item reveal">
+                    <i class="fas fa-clock"></i>
+                    <h4>التزام بالمواعيد</h4>
+                    <p>نحن ملتزمون بتسليم العمل في الوقت المحدد</p>
+                </div>
+                <div class="feature-item reveal delay-1">
+                    <i class="fas fa-headset"></i>
+                    <h4>خدمات 24/7</h4>
+                    <p>طوارئ وتدخل سريع على مدار الساعة</p>
+                </div>
+                <div class="feature-item reveal delay-2">
+                    <i class="fas fa-tags"></i>
+                    <h4>عروض وخصومات</h4>
+                    <p>أسعار تنافسية وعروض مميزة للعملاء</p>
+                </div>
+                <div class="feature-item reveal delay-3">
+                    <i class="fas fa-tools"></i>
+                    <h4>معدات حديثة</h4>
+                    <p>أحدث المعدات والآلات لضمان أفضل النتائج</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section stats-section bg-primary text-white">
+        <div class="container grid-4">
+            <div class="stat-item reveal">
+                <i class="fas fa-check-circle"></i>
+                <span class="counter" data-target="1500">0</span>
+                <p>مشروع مكتمل</p>
+            </div>
+            <div class="stat-item reveal delay-1">
+                <i class="fas fa-users"></i>
+                <span class="counter" data-target="1200">0</span>
+                <p>عميل راضٍ</p>
+            </div>
+            <div class="stat-item reveal delay-2">
+                <i class="fas fa-award"></i>
+                <span class="counter" data-target="10">0</span>
+                <p>سنوات الخبرة</p>
+            </div>
+            <div class="stat-item reveal delay-3">
+                <i class="fas fa-truck"></i>
+                <span class="counter" data-target="24">0</span>
+                <p>شاحنة مجهزة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Before-After Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>قبل / بعد</h2>
+                <p>نتائج عملنا تتحدث عنا</p>
+                <div class="line"></div>
+            </div>
+            <div class="grid-3">
+                <div class="gallery-item glass-card reveal">
+                    <div class="image-placeholder">Image Before/After 1</div>
+                </div>
+                <div class="gallery-item glass-card reveal delay-1">
+                    <div class="image-placeholder">Image Before/After 2</div>
+                </div>
+                <div class="gallery-item glass-card reveal delay-2">
+                    <div class="image-placeholder">Image Before/After 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Process Section -->
+    <section class="section bg-soft">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>طريقة عملنا</h2>
+                <div class="line"></div>
+            </div>
+            <div class="process-wrapper">
+                <div class="process-step reveal">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-phone"></i>
+                    <h4>اتصل بنا</h4>
+                </div>
+                <div class="process-step reveal delay-1">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-eye"></i>
+                    <h4>زيارة وتقدير</h4>
+                </div>
+                <div class="process-step reveal delay-2">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-cogs"></i>
+                    <h4>بدء العمل</h4>
+                </div>
+                <div class="process-step reveal delay-3">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-check"></i>
+                    <h4>تسليم العمل</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>باقات الأسعار</h2>
+                <div class="line"></div>
+            </div>
+            <div class="grid-3">
+                <div class="pricing-card glass-card reveal">
+                    <h3>الأساسية</h3>
+                    <div class="price"><span>د.ج</span> 5000</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> تسليك بالوعات بسيطة</li>
+                        <li><i class="fas fa-check"></i> استجابة خلال 24 ساعة</li>
+                        <li class="disabled"><i class="fas fa-times"></i> تعقيم شامل</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">اطلب الآن</a>
+                </div>
+                <div class="pricing-card glass-card popular reveal delay-1">
+                    <div class="badge">الأكثر طلباً</div>
+                    <h3>المتقدمة</h3>
+                    <div class="price"><span>د.ج</span> 12000</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> تسليك المجاري الرئيسية</li>
+                        <li><i class="fas fa-check"></i> استجابة فورية طوارئ</li>
+                        <li><i class="fas fa-check"></i> تعقيم شامل للمكان</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">اطلب الآن</a>
+                </div>
+                <div class="pricing-card glass-card reveal delay-2">
+                    <h3>الشركات</h3>
+                    <div class="price">مخصص</div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> عقود صيانة دورية</li>
+                        <li><i class="fas fa-check"></i> أسطول شاحنات مجهز</li>
+                        <li><i class="fas fa-check"></i> تغطية لجميع الولايات</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & FAQ Section -->
+    <section id="contact" class="section bg-soft">
+        <div class="container">
+            <div class="grid-2">
+                <!-- FAQ -->
+                <div class="faq-section reveal">
+                    <div class="section-title text-right">
+                        <h2>الأسئلة الشائعة</h2>
+                        <div class="line align-right"></div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">هل تقدمون خدماتكم خارج العاصمة؟ <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">نعم، نحن نغطي جميع بلديات الجزائر العاصمة ونوفر خدماتنا لجميع الولايات عبر فرقنا المتنقلة.</div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">هل الخدمة متوفرة 24/7؟ <i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content">بالتأكيد، فرق الطوارئ لدينا جاهزة للتدخل السريع في أي وقت من اليوم.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper glass-card reveal delay-1">
+                    <div class="section-title text-right">
+                        <h2>تواصل معنا</h2>
+                        <div class="line align-right"></div>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder="الاسم الكامل">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" required placeholder="رقم الهاتف">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" required placeholder="كيف يمكننا مساعدتك؟"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container text-center reveal">
+            <h2>لا تنتظر... اتصل الآن</h2>
+            <p>انسداد المجاري لا ينتظر الحل أيضاً!</p>
+            <a href="https://wa.me/213671755977" target="_blank" class="btn btn-success btn-lg">
+                <i class="fas fa-phone"></i> اتصل بنا: 0671755977
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container grid-4">
+            <div class="footer-info">
+
+                <h3>الجوهرة للنظافة</h3>
+                <p>SARL EL DJAWHARA LI NADAFA WA TATHIR. رواد في مجال النظافة، التطهير، وإدارة النفايات السائلة.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/213671755977"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#gallery">معرض الأعمال</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>معلومات الإتصال</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> الجزائر العاصمة</li>
+                    <li><i class="fas fa-phone"></i> 0671755977</li>
+                    <li><i class="fas fa-envelope"></i> info@aljawhara.com</li>
+                </ul>
+            </div>
+            <div class="footer-map">
+                 <h4>مناطق التغطية</h4>
+                 <p>جميع بلديات الجزائر العاصمة، وخدمات للولايات المجاورة.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SARL EL DJAWHARA. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
